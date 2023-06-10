@@ -1,0 +1,39 @@
+nav{
+    background-color: #5995fd;
+    width: 100%;
+    height: 60px;
+    border-radius:2px !important;
+    top:0;
+}
+nav .navbar-nav{
+    margin-top: 12px;
+}
+nav .navbar-nav a{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+nav .navbar-nav a:hover{
+   color: #4d84e2;
+}
+nav .navbar-nav .active{
+    color: var(--orange-color) !important;
+}
+nav .navbar-nav button{
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    width: 140px;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 15px;
+    margin-top: -7px;
+    border-radius: 4px;
+}
+ 
+.links-container{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+}
