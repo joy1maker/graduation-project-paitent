@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import './Nav.css'
-import Headerimg from '../../Assets/medical-technology-logo-design-vector-171347907.jpg'
+import Headerimg from '../../Assets/logo.png'
 import { AuthContext } from "../../contexts/auth";
 import { RefsContext } from "../../contexts/refs.context";
 import { UserContext } from "../../contexts/user.context";
@@ -13,7 +13,7 @@ const Navbars = () => {
   return (
     <Navbar expand="lg" style={{ position: "fixed", zIndex: 22 }}>
       <Container>
-        <Navbar.Brand href="#Home"> <img src={Headerimg} style={{ width: "100px", height: "50px" }} /></Navbar.Brand>
+        <Navbar.Brand href="#Home"> <img src={Headerimg} style={{ width: "100px", height: "50px" }} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
